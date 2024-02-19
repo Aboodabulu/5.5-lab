@@ -106,6 +106,10 @@ section h3, form {
     text-align: center;
 }
 
+section.cta {
+    margin-bottom: 50px;
+}
+
 section.cta h3 {
     margin-top: .5em;
 }
@@ -139,3 +143,4 @@ input.button {
     font-weight: bolder;
     background: rgb(240, 58, 58);
 }
+
