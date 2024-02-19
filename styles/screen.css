@@ -135,6 +135,7 @@ input.button {
     padding: 20px;
     border: none;
     color: white;
-    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: bolder;
     background: rgb(240, 58, 58);
 }
