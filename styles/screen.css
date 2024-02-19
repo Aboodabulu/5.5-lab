@@ -28,7 +28,6 @@ main {
     background: url('/images/polaroid-pic.png') no-repeat center 100px;
     margin: 0 auto;
     width: 1000px;
-    text-align: center;
 }
 
 .hero {
@@ -43,5 +42,40 @@ main {
 }
 
 .details ul li {
-    
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0 0 0 40px;
+}
+
+.details ul li.wifi {
+    background: url('/images/wifi-solid\ 1.png') no-repeat center left;
+    background-size: 1.5em;
+}
+
+.details ul li.cloud {
+    background: url('/images/cloud-arrow-up-solid\ 1.png') no-repeat center left;
+    background-size: 1.5em;
+}
+
+.details ul li.qr {
+    background: url('/images/qrcode-solid\ 1.png') no-repeat center left;
+    background-size: 1.5em;
+}
+
+.details ul li.image {
+    background: url('/images/photo-film-solid\ 1.png') no-repeat center left;
+    background-size: 1.5em;
+}
+
+.details h3, p, ul {
+    text-align: center;
+}
+
+.details p {
+    width: 600px;
+    margin: auto;
+}
+
+section h3, form {
+    text-align: center;
 }
